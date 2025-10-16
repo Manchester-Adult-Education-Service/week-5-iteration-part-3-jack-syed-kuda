@@ -34,7 +34,12 @@ print("-------------------------------------------\n"
 #     print("Hello " + name)  # loop through and greet
 
 # Write your code below:
-
+friend1 = (input("What is your first friends name."))
+friend2 = (input("What is your second friends name"))
+friend3 = (input("What is your third friends name"))
+friend = [friend1, friend2, friend3]
+for name in friend:
+        print(f"Hello {name}")
 
 # -------------------------------------------
 # SWAP COMPUTERS
