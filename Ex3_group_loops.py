@@ -34,12 +34,12 @@ print("-------------------------------------------\n"
 #     print("Hello " + name)  # loop through and greet
 
 # Write your code below:
-friend1 = (input("What is your first friends name."))
-friend2 = (input("What is your second friends name"))
-friend3 = (input("What is your third friends name"))
-friend = [friend1, friend2, friend3]
-for name in friend:
-        print(f"Hello {name}")
+# friend1 = (input("What is your first friends name."))
+# friend2 = (input("What is your second friends name"))
+# friend3 = (input("What is your third friends name"))
+# friend = [friend1, friend2, friend3]
+# for name in friend:
+#         print(f"Hello {name}")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -75,6 +75,21 @@ print("-------------------------------------------\n"
 #     print("Message for other cases")
 
 # Write your code below:
+
+num = int(input("Enter a number:\n"))
+
+while num < 1 or num > 10:
+
+    if num < 1:
+        print("Guess was too low!")
+        num = int(input("Guess again!\n"))
+
+    elif num > 10:
+        print("Guess was too high")
+        num = int(input("Guess again!\n"))
+
+else:
+    print("Correct range!")
 
 
 # -------------------------------------------
